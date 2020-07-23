@@ -1,0 +1,30 @@
+@import "variables";
+.navbar{
+    background-color: $secondary-color;
+    padding: 1.2rem 1rem;
+    .navbar-nav{
+        .active>.nav-link{
+            border: 1px solid $primary-color !important; 
+            color: $primary-color !important;
+         }
+        .nav-item{
+            margin: 0 3px;
+          text-align: center;
+        .nav-link{
+            color: $light-color; 
+            font-size: 20px;
+            letter-spacing: 1px;
+            margin: 7px 0;width: 100px;
+            text-transform: capitalize;
+            font-family: $primary-font-medium;
+            border: 1px solid $secondary-color;
+            transition: all .4s ease-in-out;
+            &:hover{
+            border: 1px solid $primary-color;
+            color: $primary-color !important;
+            font-family: $primary-font-medium;
+            }
+        }
+    }
+    }
+}
