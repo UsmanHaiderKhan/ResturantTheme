@@ -28,9 +28,19 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/scss"
+              ]
+            },
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/popper.js/dist/umd/popper.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +133,15 @@
           }
         }
       }
-    }},
-  "defaultProject": "ResutrantTheme"
+    }
+  },
+  "defaultProject": "ResutrantTheme",
+  "cli": {
+    "analytics": "e0095864-7845-4cab-8e3f-cf3e7e680f22"
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "spec": false
+    }
+  }
 }
