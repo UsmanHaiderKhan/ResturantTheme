@@ -1,0 +1,31 @@
+
+@font-face{
+    font-family: 'barlow-regular';
+    src: url('../assets/fonts/BarlowCondensed-Regular.otf');
+}
+@font-face{
+    font-family: 'barlow-Medium';
+    src: url('../assets/fonts/BarlowCondensed-Medium.otf');
+}
+@font-face{
+    font-family: 'barlow-semibold';
+    src: url('../assets/fonts/BarlowCondensed-SemiBold.otf');
+}
+@font-face{
+    font-family: 'barlow-black';
+    src: url('../assets/fonts/Barlow-Black.otf');
+}
+@font-face{
+    font-family: 'BeautyDemo';
+    src: url('../assets/fonts/BeautyDemo.otf');
+}
+
+$primary-font-regular:'barlow-regular';
+$primary-font-medium:'barlow-Medium';
+$primary-font-semibold:'barlow-semibold';
+$primary-font-black:'barlow-black';
+$secondary-font:'BeautyDemo';
+
+$primary-color:#e6ae48;
+$secondary-color:#212121;
+$light-color:#ffffff;
