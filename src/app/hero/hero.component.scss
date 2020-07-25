@@ -1,0 +1,82 @@
+@import "variables";
+#main-banner{
+    width: 100%;
+    height: auto;
+    margin-top:6rem;
+    padding: 180px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/images/main-banner.png');
+    .banner-container{
+        padding: 100px;
+        border: 5px solid $light-color;
+    
+        .main-heading{
+            font-size: 50px;
+            color: $light-color;
+            text-transform: uppercase;
+            font-family: $primary-font-black; 
+            text-shadow: 2.5px 4.33px 5px rgba(0, 0, 0, 0.75);
+        }
+        .sub-heading{
+            font-size: 55px;
+            color: $light-color;
+            font-family: $secondary-font;
+            text-shadow: 2.5px 4.33px 5px rgba(0, 0, 0, 0.75);
+        }
+        .main-desc{
+            font-size: 18px;
+            color: $light-color;
+            letter-spacing:1.3px;
+            line-height: 1.5;
+            font-family: $primary-font-medium;
+        }
+    }
+    
+         .owl-next{
+            right: 2%;
+            top: 50%;
+            position: absolute;
+            transform: translate(0 ,-50%);
+            border: 2px solid $light-color;    
+            cursor: pointer;
+            padding: 10px 14px;
+            background-color: transparent;
+        }
+         .owl-prev{
+            left: 2%;
+            top: 50%;
+            position: absolute;
+            transform: translate(0 ,-50%);
+            border: 2px solid $light-color;    
+            padding: 10px 14px;
+            cursor: pointer;
+            background-color: transparent;
+        }
+
+    }
+    .book-table{
+        position: absolute;
+        right: -8%;
+        top: 50%;
+        transform: translate(0, -50%) rotate(90deg);
+    }
+    p{
+        font-size: 22px;
+        color: $primary-color;text-transform: uppercase;
+        font-family: $primary-font-medium;
+    }
+
+
+.phone-text{
+    font-size: 22px;
+    color: $light-color;
+    text-transform: uppercase;
+    font-family: $primary-font-regular;
+}
+.phone-number{
+    font-size: 22px;
+    color: $primary-color;
+    font-family: $primary-font-regular; 
+}
