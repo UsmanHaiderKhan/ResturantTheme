@@ -1,0 +1,63 @@
+@import "variables";
+#contact{
+    ::placeholder{
+        font-size: 18px;
+        color: $primary-color;
+        text-transform: uppercase;
+        font-family: $primary-font-regular;
+    }
+    .custom-control{
+        width: 100%;
+        height: 56px;
+        border-radius: 0;
+        color: $primary-color;
+        background-color: transparent;
+        border: 2px solid $primary-color;
+    }
+    .custom-area{
+        width: 100%;
+        border-radius: 0;
+        color: $primary-color;  
+        padding: 10px;
+        resize: none;
+        background-color: transparent;
+        border: 2px solid $primary-color;
+    }
+    .btn-contact{
+        width: 100%;
+        height: 56px;
+        color: $secondary-color;
+        font-size: 20px;border-radius: 0;
+        text-transform: uppercase;
+        font-family: $primary-font-medium;
+        background-color: $primary-color;
+    }
+    .contact-text{
+        b{
+            text-transform: uppercase;
+            color: $primary-color;
+        }
+        a{
+            font-size: 20px;
+            color: $light-color;
+            font-family: $primary-font-regular;
+            &:hover{
+            text-decoration: none;
+            color: $light-color;
+            }
+        }
+       
+       
+    }
+    .rights{
+        width: 100%;
+        background-color: $primary-color;
+        padding: 16px;
+        p  {
+        margin: 0;
+        font-size: 22px;
+        color: $secondary-color;
+        text-transform: uppercase;text-align: center;
+        font-family: $primary-font-regular;
+    }}
+}
