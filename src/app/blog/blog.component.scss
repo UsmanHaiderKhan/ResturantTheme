@@ -1,0 +1,55 @@
+@import "variables";
+#blog{
+    .heading-desc{
+        letter-spacing: 0.9px;
+        line-height: 1.8;
+    }
+    .sub-heading{
+    font-size: 35px;
+    color: $primary-color;
+    text-transform: capitalize;
+    font-family: $secondary-font;
+    }
+    .img-border{
+        border: 10px solid $secondary-color; 
+         box-shadow: 3.5px 6.062px 10px 0px rgba(0, 0, 0, 0.55);
+    }
+    .btn-position{
+        position: absolute;
+        top: 50%;
+        left: 41%;
+        cursor: pointer;
+        transform: translate(0 , -50%);
+    }
+    .card{
+        border: none;
+        background-color: transparent;
+text-align: center;
+    .card-body{
+  
+    .btn-load-more{
+        width: 200px;
+        height: 40px;
+        font-size: 17px;
+        color: $primary-color;
+        border-radius: 20px;
+        text-transform: uppercase;
+        border: 2px solid $primary-color;
+        font-family: $primary-font-semibold;
+        background-color: transparent;
+      }
+     
+      .blog-heading{
+          font-size: 28px;
+          color: $light-color;
+          text-transform: capitalize;
+          font-family: $primary-font-medium;
+      }
+      .blog-desc{
+          font-size: 18px;
+          color:$light-color;
+          font-family: $primary-font-regular;
+        }
+      }
+    }
+}
