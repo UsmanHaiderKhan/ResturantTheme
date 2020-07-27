@@ -3,13 +3,14 @@
     background-color: $secondary-color;
     padding: 1.2rem 1rem;
     .navbar-nav{
-        .active>.nav-link{
+        .active{
             border: 1px solid $primary-color !important; 
             color: $primary-color !important;
          }
         .nav-item{
             margin: 0 3px;
           text-align: center;
+         
         .nav-link{
             color: $light-color; 
             font-size: 20px;
@@ -27,4 +28,4 @@
         }
     }
     }
-}
+} 

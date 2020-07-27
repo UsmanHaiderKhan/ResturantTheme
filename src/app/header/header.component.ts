@@ -8,18 +8,28 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  navBarItems: Array<string>;
+  navBarItems: Array<any>;
+  currentSelected = "main-banner";
 
 
   constructor() {
-    this.navBarItems = ['Home ', 'Our Story', 'Menu', 'Dishes', 'Contact'];
+    this.navBarItems = [
+      { name: 'Home', link: 'main-banner' },
+      { name: 'Our Story', link: 'our-story' },
+      { name: 'Dishes', link: 'dishes' },
+      { name: 'Menu', link: 'menu' },
+      { name: 'Blog', link: 'blog' },
+      { name: 'Contact', link: 'contact' },
+    ];
   }
 
   ngOnInit(): void {
   }
 
-  toggleActive() {
-
+  onSelected(navlink: string) {
+    this.currentSelected = navlink;
+    console.log(navlink);
   }
+
 
 }
