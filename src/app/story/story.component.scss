@@ -1,0 +1,28 @@
+@import "variables";
+@import "mixin";
+#our-story{
+    padding: 100px 0;
+    
+    .sub-heading{
+        font-size: 35px;
+        color: $primary-color;
+        text-transform: capitalize;
+        font-family: $secondary-font;
+    }
+    .bg-img{
+        @include background-setting;
+        background-size: contain;
+       background-image: url('../../assets/images/about/bg-circle.png');
+    }
+    .yellow-border{
+        transform: translateY(-8%);
+        border: 10px solid $primary-color; 
+        box-shadow: 3.5px 6.062px 10px 0px rgba(0, 0, 0, 0.55);
+
+    }
+    .black-border{
+        border: 10px solid $secondary-color; 
+         box-shadow: 3.5px 6.062px 10px 0px rgba(0, 0, 0, 0.55);
+    }
+      
+}
