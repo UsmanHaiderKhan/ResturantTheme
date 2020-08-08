@@ -1,0 +1,45 @@
+@import "variables";
+
+#menu{
+    .media-body{
+        position: relative;
+        margin-top: 1.5rem;
+        .menu-heading{
+            font-size: 35px;
+            color: $primary-color;
+            text-transform: capitalize;
+            font-family: $primary-font-semibold;
+        }
+        .menu-price{
+            font-size: 20px;
+            color: $light-color;
+            font-family: $primary-font-medium;
+    
+        }
+        .menu-desc{
+            font-size: 18px;
+            color: $light-color;
+            font-family: $primary-font-regular;
+    
+        }
+        &::after{
+            content: '**********************';
+            position: absolute;
+            bottom: -50px;
+            left: 0;
+            right: 0;
+            border-top: 1px solid $primary-color;
+        }
+    }
+    .btn-load-menu{
+        width: 256px;
+        height: 56px;
+        font-size: 24px;
+        color: $primary-color;
+        text-transform: uppercase;
+        border: 2px solid $primary-color;
+        font-family: $primary-font-semibold;
+        background-color: transparent;
+    }
+   
+}
