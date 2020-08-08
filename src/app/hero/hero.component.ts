@@ -9,13 +9,15 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 })
 export class HeroComponent implements OnInit {
 
-  constructor() { }
+  // sliderArrays: Array<string>;
+  // customOptions: any;
+  silderArrays = [
+    { name: 'The Delicious Restaurant', subheading: '“First we eat, then we do everything else.”', description: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quisnostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.' },
+    { name: 'Get Resturant Deals', subheading: '“First we eat, then we do everything else.”', description: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quisnostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.' },
+    { name: 'Enjoy Your Meal', subheading: '“First we eat, then we do everything else.”', description: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quisnostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.' },
+    { name: 'Special For You Guys', subheading: '“First we eat, then we do everything else.”', description: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quisnostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.' },
 
-  ngOnInit(): void {
-  }
-
-  // Owl-Carousel Function
-
+  ]
   customOptions: OwlOptions = {
     loop: true,
     mouseDrag: true,
@@ -41,5 +43,16 @@ export class HeroComponent implements OnInit {
     },
     nav: true
   }
+  constructor() { }
+
+
+  ngOnInit(): void {
+  }
+
+
+
+
+
+
 
 }
